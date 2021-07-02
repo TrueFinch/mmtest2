@@ -335,7 +335,7 @@ def do_adfuller(data):
         print("Единичных корней нет, ряд стационарен")
 
 
-def subtask8():
+def subtask8_9():
     print("Start subtask #8")
     data = getData()
     dates = pd.date_range('2017-01-01', periods=36, freq='MS')
@@ -428,11 +428,11 @@ def subtask8():
     print("End subtask #8")
 
 
-# subtask1()
-# subtask2()
-# subtask3()
-# subtask4()
-# subtask5()
-# subtask6()
-# subtask7()
-subtask8()
+subtask1()
+subtask2()
+subtask3()
+subtask4()
+subtask5()
+subtask6()
+subtask7()
+subtask8_9()
